@@ -96,7 +96,6 @@ export function Footer() {
             </div>
           </div>
         </div>
-
         {/* Newsletter */}
         <div className="border-t border-green-100 mt-16 pt-12">
           <div className="max-w-xl mx-auto text-center">
