@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { About } from "./components/About/About"; 
-import { Trainer } from "./components/Know/Trainer";
+import { ReikiJourney } from "./components/ReikiJourney/ReikiJourney";
 import { Services } from "./components/Services/Services";
 import { Benefits } from "./components/Benefits/Benefits";
 import { Testimonials } from "./components/Testimonials/Testimonials";
@@ -14,7 +14,7 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
-        <Trainer />
+        <ReikiJourney />
         <Services />
         <Benefits />
         <Testimonials />

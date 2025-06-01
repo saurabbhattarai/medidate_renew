@@ -1,6 +1,7 @@
 import { cva, type VariantProps } from "class-variance-authority"
 import { Loader2 } from "lucide-react"
 import * as React from "react"
+import Link from "next/link"
 
 const buttonVariants = cva(
   "inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background",
@@ -29,10 +30,23 @@ export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
   isLoading?: boolean
+  href?: string
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, isLoading, children, ...props }, ref) => {
+  ({ className, variant, size, isLoading, children, href, ...props }, ref) => {
+    if (href) {
+      return (
+        <Link
+          href={href}
+          className={buttonVariants({ variant, size, className })}
+        >
+          {isLoading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
+          {children}
+        </Link>
+      )
+    }
+
     return (
       <button
         className={buttonVariants({ variant, size, className })}

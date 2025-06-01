@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import Image from "next/image";
-import { Leaf, Sparkles } from "lucide-react";
+import { Leaf, Link, Sparkles } from "lucide-react";
 
 export function Hero() {
   return (
@@ -23,22 +23,26 @@ export function Hero() {
                 Harmonize Your Energy With{" "}
                 <span className="relative whitespace-nowrap">
                   <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-700">
-                   Serenity Reiki
+                    Serenity Reiki
                   </span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-green-100/70 -z-0"></span>
                 </span>
               </h1>
               <p className="max-w-[600px] text-green-700 md:text-lg leading-relaxed">
                 Experience the transformative synergy of Reiki energy healing
-                and Ayurvedic wisdom. Our holistic approach restores balance to
+                and ancient wisdom. Our holistic approach restores balance to
                 mind, body, and spirit in our tranquil nature-inspired
                 sanctuary.
               </p>
             </div>
-            <div className="flex flex-col gap-3 min-[400px]:flex-row">
+            <div className="flex flex-col gap-3 min-[400px]:flex-row"> 
+              <a href="/contact">
               <Button size="lg" className="text-white shadow-lg cursor-pointer">
                 Begin Your Healing Journey
               </Button>
+              </a>
+
+
               <Button
                 variant="outline"
                 size="lg"
@@ -73,8 +77,8 @@ export function Hero() {
                 </div>
               </div>
               <div className="text-sm text-green-600">
-                <p className="font-medium">500+ Clients Transformed</p>
-                <p className="text-xs">Trusted since 2010</p>
+                <p className="font-medium">10+ Clients Transformed</p>
+                <p className="text-xs">Trusted since 2019</p>
               </div>
             </div>
           </div>

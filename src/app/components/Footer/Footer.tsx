@@ -55,7 +55,7 @@ export function Footer() {
               <Link href="#" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
                 Practitioners
               </Link>
-              <Link href="#" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
+              <Link href="/contact" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
                 Contact
               </Link>
             </nav>
