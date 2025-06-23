@@ -6,6 +6,12 @@ import { useState } from "react"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const phoneNumber = "+4915737926162"
+
+  const handleBookSessionClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    window.location.href = `tel:${phoneNumber}`
+  }
 
   return (
     <header className="px-4 lg:px-6 h-20 flex items-center backdrop-blur-sm bg-green-50/90 sticky top-0 z-50 border-b border-green-200 shadow-sm">
@@ -32,12 +38,13 @@ export function Header() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-emerald-500 transition-all duration-300 group-hover/nav:w-full"></span>
             </Link>
           ))}
-          <Link
-            href="/contact"
-            className="px-4 py-2 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 text-white text-sm font-medium hover:shadow-md transition-all hover:from-green-700 hover:to-emerald-800"
+          <a
+            href={`tel:${phoneNumber}`}
+            onClick={handleBookSessionClick}
+            className="px-4 py-2 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 text-white text-sm font-medium hover:shadow-md transition-all hover:from-green-700 hover:to-emerald-800 cursor-pointer"
           >
             Book Session
-          </Link>
+          </a>
         </nav>
 
         {/* Mobile Menu Toggle Button */}
@@ -64,13 +71,16 @@ export function Header() {
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              onClick={() => setMobileMenuOpen(false)}
-              className="w-full text-center px-4 py-2 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 text-white text-sm font-medium hover:shadow-md transition-all hover:from-green-700 hover:to-emerald-800"
+            <a
+              href={`tel:${phoneNumber}`}
+              onClick={(e) => {
+                handleBookSessionClick(e)
+                setMobileMenuOpen(false)
+              }}
+              className="w-full text-center px-4 py-2 rounded-full bg-gradient-to-r from-green-600 to-emerald-700 text-white text-sm font-medium hover:shadow-md transition-all hover:from-green-700 hover:to-emerald-800 cursor-pointer"
             >
               Book Session
-            </Link>
+            </a>
           </nav>
         </div>
       )}

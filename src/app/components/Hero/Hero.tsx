@@ -1,8 +1,17 @@
+"use client";
 import { Button } from "../ui/button";
 import Image from "next/image";
-import { Leaf, Link, Sparkles } from "lucide-react";
+import { Leaf, Link, Sparkles, Calendar, Clock } from "lucide-react";
 
 export function Hero() {
+  const phoneNumber = "+4915737926162";
+  const whatsappMessage = "Hello, I'm interested in booking a Reiki session. Can you please provide more information?";
+  
+  const handleWhatsAppClick = () => {
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(url, '_blank');
+  };
+
   return (
     <section className="w-full py-12 md:py-12 lg:py-12 relative overflow-hidden bg-gradient-to-b from-green-50 to-white">
       {/* Decorative elements */}
@@ -35,14 +44,15 @@ export function Hero() {
                 sanctuary.
               </p>
             </div>
-            <div className="flex flex-col gap-3 min-[400px]:flex-row"> 
-              <a href="/contact">
-              <Button size="lg" className="text-white shadow-lg cursor-pointer">
+
+            <div className="flex flex-col gap-3 min-[400px]:flex-row">
+              <Button
+                size="lg"
+                className="text-white shadow-lg cursor-pointer"
+                onClick={handleWhatsAppClick}
+              >
                 Begin Your Healing Journey
               </Button>
-              </a>
-
-
               <Button
                 variant="outline"
                 size="lg"

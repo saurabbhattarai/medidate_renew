@@ -1,5 +1,14 @@
-import { Leaf, Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from "lucide-react"
-import Link from "next/link"
+import {
+  Leaf,
+  Phone,
+  Mail,
+  MapPin,
+  Facebook,
+  Instagram,
+  Twitter,
+  Youtube,
+} from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -12,10 +21,13 @@ export function Footer() {
               <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center shadow-lg">
                 <Leaf className="w-7 h-7 text-white" />
               </div>
-              <span className="text-3xl font-bold font-serif text-slate-800">Serenity Reiki</span>
+              <span className="text-3xl font-bold font-serif text-slate-800">
+                Serenity Reiki
+              </span>
             </Link>
             <p className="text-slate-600 text-lg leading-relaxed max-w-sm">
-              Transforming lives through ancient healing wisdom and modern wellness practices.
+              Transforming lives through ancient healing wisdom and modern
+              wellness practices.
             </p>
             <div className="flex gap-4">
               <Link
@@ -41,21 +53,38 @@ export function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-6">
-            <h3 className="text-xl font-semibold text-slate-800 font-serif">Explore</h3>
+            <h3 className="text-xl font-semibold text-slate-800 font-serif">
+              Explore
+            </h3>
             <nav className="flex flex-col space-y-4">
-              <Link href="#about" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
+              <Link
+                href="#about"
+                className="text-slate-600 hover:text-green-600 transition-colors text-lg"
+              >
                 About Us
               </Link>
-              <Link href="#services" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
+              <Link
+                href="#services"
+                className="text-slate-600 hover:text-green-600 transition-colors text-lg"
+              >
                 Services
               </Link>
-              <Link href="#benefits" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
+              <Link
+                href="#benefits"
+                className="text-slate-600 hover:text-green-600 transition-colors text-lg"
+              >
                 Benefits
               </Link>
-              <Link href="#" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
+              <Link
+                href="#"
+                className="text-slate-600 hover:text-green-600 transition-colors text-lg"
+              >
                 Practitioners
               </Link>
-              <Link href="/contact" className="text-slate-600 hover:text-green-600 transition-colors text-lg">
+              <Link
+                href="/contact"
+                className="text-slate-600 hover:text-green-600 transition-colors text-lg"
+              >
                 Contact
               </Link>
             </nav>
@@ -63,17 +92,21 @@ export function Footer() {
 
           {/* Contact Info */}
           <div className="space-y-6">
-            <h3 className="text-xl font-semibold text-slate-800 font-serif">Get in Touch</h3>
+            <h3 className="text-xl font-semibold text-slate-800 font-serif">
+              Get in Touch
+            </h3>
             <div className="space-y-5">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                   <MapPin className="w-5 h-5 text-green-600" />
                 </div>
                 <div className="text-slate-600">
-                  <div className="font-medium text-slate-700 text-lg">Visit Our Center</div>
+                  <div className="font-medium text-slate-700 text-lg">
+                    Visit Our Center
+                  </div>
                   <div className="mt-1">
-                    123 Wellness Way<br />
-                    Peaceful Valley, CA 90210
+                    Bühlstrasse 18, 37073, <br />
+                    Göttingen.
                   </div>
                 </div>
               </div>
@@ -82,7 +115,9 @@ export function Footer() {
                   <Phone className="w-5 h-5 text-green-600" />
                 </div>
                 <div className="text-slate-600">
-                  <div className="font-medium text-slate-700 text-lg">(555) 123-4567</div>
+                  <div className="font-medium text-slate-700 text-lg">
+                    +4915737926162
+                  </div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -90,7 +125,9 @@ export function Footer() {
                   <Mail className="w-5 h-5 text-green-600" />
                 </div>
                 <div className="text-slate-600">
-                  <div className="font-medium text-slate-700 text-lg">hello@serenityreiki.com</div>
+                  <div className="font-medium text-slate-700 text-lg">
+                    hello@serenityreiki.com
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,18 +161,27 @@ export function Footer() {
             © {new Date().getFullYear()} Serenity Reiki. All rights reserved.
           </p>
           <nav className="flex gap-8">
-            <Link href="#" className="text-slate-500 hover:text-green-600 text-sm transition-colors">
+            <Link
+              href="#"
+              className="text-slate-500 hover:text-green-600 text-sm transition-colors"
+            >
               Privacy
             </Link>
-            <Link href="#" className="text-slate-500 hover:text-green-600 text-sm transition-colors">
+            <Link
+              href="#"
+              className="text-slate-500 hover:text-green-600 text-sm transition-colors"
+            >
               Terms
             </Link>
-            <Link href="#" className="text-slate-500 hover:text-green-600 text-sm transition-colors">
+            <Link
+              href="#"
+              className="text-slate-500 hover:text-green-600 text-sm transition-colors"
+            >
               Cookies
             </Link>
           </nav>
         </div>
       </div>
     </footer>
-  )
+  );
 }
