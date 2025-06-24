@@ -21,7 +21,7 @@ export function Header() {
             <Leaf className="w-6 h-6 text-green-100" strokeWidth={2.5} />
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-bold text-green-800 font-serif tracking-tight">Serenity Reiki</span>
+            <span className="text-2xl font-bold text-green-800 font-serif tracking-tight">Renew Flow</span>
             <span className="text-xs text-green-600 -mt-1 tracking-wider">ANCIENT WELLNESS</span>
           </div>
         </Link>
