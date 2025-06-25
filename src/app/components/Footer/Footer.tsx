@@ -22,7 +22,7 @@ export function Footer() {
                 <Leaf className="w-7 h-7 text-white" />
               </div>
               <span className="text-3xl font-bold font-serif text-slate-800">
-                Serenity Reiki
+                Renew Flow
               </span>
             </Link>
             <p className="text-slate-600 text-lg leading-relaxed max-w-sm">
@@ -158,7 +158,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-green-100 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Serenity Reiki. All rights reserved.
+            © {new Date().getFullYear()} Renew Flow. All rights reserved.
           </p>
           <nav className="flex gap-8">
             <Link

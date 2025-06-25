@@ -22,7 +22,7 @@ export function Header() {
           </div>
           <div className="flex flex-col">
             <span className="text-2xl font-bold text-green-800 font-serif tracking-tight">Renew flow</span>
-            <span className="text-xs text-green-600 -mt-1 tracking-wider">ANCIENT WELLNESS</span>
+            <span className="text-xs text-green-600 -mt-1 tracking-wider">ANCIENT WISDOM</span>
           </div>
         </Link>
 

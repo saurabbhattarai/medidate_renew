@@ -28,7 +28,7 @@ export function About() {
               Modern Wellness
             </h2>
             <p className="text-green-700/90 md:text-lg leading-relaxed max-w-[90%]">
-              At Serenity Reiki, we weave together the gentle energy healing of
+              At Renew flow, we weave together the gentle energy healing of
               Reiki with the timeless wisdom of Ayurveda. Our holistic approach
               nurtures your body's innate healing intelligence while addressing
               root causes of imbalance through sacred energy work, mindful

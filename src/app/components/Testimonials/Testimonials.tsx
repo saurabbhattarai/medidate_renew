@@ -5,7 +5,7 @@ const videoTestimonials = [
     id: 1,
     quote: "The Reiki sessions have completely transformed my stress levels. I feel more centered and peaceful than I have in years.",
     name: "Ashish",
-    role: "Engineering Student",
+    role: "Business Student",
     stars: 5,
     videoUrl: "https://www.instagram.com/reel/DJMjFC8sHuG/"
   },

@@ -72,7 +72,7 @@ export function Contact() {
               Begin Your <span className="text-emerald-700">Healing Journey</span>
             </h2>
             <p className="text-green-700/90 md:text-lg leading-relaxed">
-              Ready to experience the transformative power of Reiki meditation? Contact us to schedule your first session or learn more about our programs.
+              Ready to experience the transformative power of Ancient Wellness? Contact us to schedule your first session or learn more about our programs.
             </p>
 
             <div className="space-y-5">
@@ -82,7 +82,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-lg text-green-900">Phone</div>
-                  <div className="text-green-700/90">(555) 123-4567</div>
+                  <div className="text-green-700/90">+4915737926162</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -100,7 +100,8 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-lg text-green-900">Location</div>
-                  <div className="text-green-700/90">123 Wellness Way, Peaceful Valley, CA 90210</div>
+                  <div className="text-green-700/90">Bühlstrasse 18, 37073, <br />
+                    Göttingen.</div>
                 </div>
               </div>
             </div>
@@ -167,9 +168,9 @@ export function Contact() {
                   required
                 >
                   <option value="">Select Service</option>
-                  <option value="Individual Reiki Session">Individual Reiki Session</option>
-                  <option value="Group Meditation Class">Group Meditation Class</option>
-                  <option value="ancient Consultation">Ancient Consultation</option>
+                  <option value="Individual Reiki Session">Meditation</option>
+                  <option value="Group Meditation Class">Breath Work</option>
+                  <option value="ancient Consultation">Energy Sessions</option>
                 </select>
               </div>
               

@@ -1,15 +1,17 @@
-"use client";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import { Leaf, Link, Sparkles, Calendar, Clock } from "lucide-react";
 
 export function Hero() {
   const phoneNumber = "+4915737926162";
-  const whatsappMessage = "Hello, I'm interested in booking a Reiki session. Can you please provide more information?";
-  
+  const whatsappMessage =
+    "Hello, I'm interested in booking a Reiki session. Can you please provide more information?";
+
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-    window.open(url, '_blank');
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      whatsappMessage
+    )}`;
+    window.open(url, "_blank");
   };
 
   return (
@@ -32,27 +34,29 @@ export function Hero() {
                 Harmonize Your Energy With{" "}
                 <span className="relative whitespace-nowrap">
                   <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-700">
-                    Serenity Reiki
+                    Renew Flow
                   </span>
                   <span className="absolute bottom-2 left-0 w-full h-3 bg-green-100/70 -z-0"></span>
                 </span>
               </h1>
               <p className="max-w-[600px] text-green-700 md:text-lg leading-relaxed">
-                Experience the transformative synergy of Reiki energy healing
-                and ancient wisdom. Our holistic approach restores balance to
-                mind, body, and spirit in our tranquil nature-inspired
-                sanctuary.
+                Experience the transformative synergy of ancient wisdom and
+                modern healing and ancient wisdom. Our holistic approach
+                restores balance to mind, body, and spirit in our tranquil
+                nature-inspired sanctuary.
               </p>
             </div>
 
             <div className="flex flex-col gap-3 min-[400px]:flex-row">
-              <Button
-                size="lg"
-                className="text-white shadow-lg cursor-pointer"
-                onClick={handleWhatsAppClick}
+              <a
+                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                  whatsappMessage
+                )}`}
+                target="_blank"
+                className="bg-gradient-to-r cursor-pointer from-green-600 to-emerald-700 text-white py-2 px-4 rounded-full flex items-center text-sm font-medium"
               >
-                Begin Your Healing Journey
-              </Button>
+                Begin your Healing Journey
+              </a>
               <Button
                 variant="outline"
                 size="lg"
