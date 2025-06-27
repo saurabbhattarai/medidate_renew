@@ -78,14 +78,14 @@ export function About() {
 
               {/* Image with organic styling */}
               <div className="relative w-full h-full overflow-hidden rounded-2xl border-4 border-white/80 shadow-xl">
-                {/* <Image
-                  src="https://images.pexels.com/photos/6633936/pexels-photo-6633936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                <Image
+                  src="/meditation.webp"
                   fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="lg"
                   alt="Peaceful meditation space"
                   className="object-cover object-center"
                   priority
-                /> */}
+                />
                 {/* Overlay to blend with theme */}
                 <div className="absolute inset-0 bg-gradient-to-b from-green-50/20 to-emerald-900/10 mix-blend-multiply"></div>
               </div>
