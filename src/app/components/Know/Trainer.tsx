@@ -72,14 +72,11 @@ export function Trainer() {
                 <Heart className="w-6 h-6 text-emerald-600" strokeWidth={2} />
               </div>
 
-              {/* Top-right Label */}
-              <div className="absolute -top-4 -right-4 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-md border border-green-100/50">
-                <span className="text-sm font-medium text-green-800">
-                  Over 15 Years
-                </span>
-              </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center mt-4 text-sm font-medium text-green-700">
+          -Charchit Devkota
         </div>
       </div>
     </section>

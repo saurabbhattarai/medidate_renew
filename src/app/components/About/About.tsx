@@ -110,12 +110,6 @@ export function About() {
                 </svg>
                 {/* <Flower2 className="w-6 h-6 text-emerald-600" strokeWidth={2} /> */}
               </div>
-
-              <div className="absolute -top-4 -right-4 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-md border border-green-100/50">
-                <span className="text-sm font-medium text-green-800">
-                  Since 2010
-                </span>
-              </div>
             </div>
           </div>
         </div>

@@ -91,7 +91,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-lg text-green-900">Email</div>
-                  <div className="text-green-700/90">hello@serenityreiki.com</div>
+                  <div className="text-green-700/90">contact@renewflow.de</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
