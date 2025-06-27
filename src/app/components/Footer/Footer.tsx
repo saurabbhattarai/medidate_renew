@@ -126,35 +126,13 @@ export function Footer() {
                 </div>
                 <div className="text-slate-600">
                   <div className="font-medium text-slate-700 text-lg">
-                    hello@serenityreiki.com
+                    contact@renewflow.de
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* Newsletter */}
-        <div className="border-t border-green-100 mt-16 pt-12">
-          <div className="max-w-xl mx-auto text-center">
-            <h3 className="text-2xl font-semibold text-slate-800 font-serif mb-3">
-              Stay Connected
-            </h3>
-            <p className="text-slate-600 text-lg mb-8">
-              Get wellness tips and healing insights delivered to your inbox.
-            </p>
-            <div className="flex gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-5 py-4 rounded-full bg-white border-2 border-green-200 text-slate-700 placeholder-slate-400 focus:outline-none focus:border-green-400 shadow-sm"
-              />
-              <button className="px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white rounded-full font-semibold transition-all shadow-md hover:shadow-lg">
-                Join
-              </button>
-            </div>
-          </div>
-        </div>
-
         {/* Bottom */}
         <div className="border-t border-green-100 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 text-sm">

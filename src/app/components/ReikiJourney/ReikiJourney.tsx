@@ -7,99 +7,73 @@ export function ReikiJourney() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100/80 px-5 py-2.5 text-sm font-medium text-emerald-800 border border-emerald-200/50 mb-6">
             <Leaf className="w-4 h-4 text-emerald-700" strokeWidth={2} />
-            The Sacred Path
+            Reiki Healing Sessions
           </div>
           <h2 className="text-4xl font-bold tracking-tight sm:text-5xl font-serif text-emerald-900 mb-4">
-            The Reiki <span className="text-emerald-600">Energy Journey</span>
+            Gentle Energy Therapy for <span className="text-emerald-600">Holistic Well-being</span>
           </h2>
           <p className="text-emerald-700/80 md:text-lg leading-relaxed max-w-2xl mx-auto">
-            A transformative five-step process that harmonizes your energy with universal life force
+            A gentle, non-invasive energy therapy that supports emotional, physical, and spiritual well-being.
           </p>
         </div>
 
-        {/* Simple steps layout */}
+        {/* What Reiki can help with */}
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Step 1 */}
+          {/* Stress */}
           <div className="bg-white rounded-xl p-6 border border-emerald-100 shadow-sm hover:shadow-md transition-all">
-            <div className="w-12 h-12 rounded-lg bg-emerald-500 text-white text-lg font-bold flex items-center justify-center mb-4">
-              1
-            </div>
             <div className="flex items-center gap-3 mb-3">
               <Zap className="w-6 h-6 text-emerald-600" strokeWidth={1.5} />
-              <h3 className="text-xl font-bold font-serif text-emerald-800">Intention Setting</h3>
+              <h3 className="text-xl font-bold font-serif text-emerald-800">Stress & Anxiety</h3>
             </div>
             <p className="text-emerald-700/90">
-              Every session begins with a shared focus — your physical, emotional, or spiritual goals.
+              Helps release emotional tension and promotes deep relaxation.
             </p>
           </div>
 
-          {/* Step 2 */}
+          {/* Pain */}
           <div className="bg-white rounded-xl p-6 border border-emerald-100 shadow-sm hover:shadow-md transition-all">
-            <div className="w-12 h-12 rounded-lg bg-emerald-500 text-white text-lg font-bold flex items-center justify-center mb-4">
-              2
-            </div>
             <div className="flex items-center gap-3 mb-3">
               <Heart className="w-6 h-6 text-emerald-600" strokeWidth={1.5} />
-              <h3 className="text-xl font-bold font-serif text-emerald-800">Grounding</h3>
+              <h3 className="text-xl font-bold font-serif text-emerald-800">Chronic Pain</h3>
             </div>
             <p className="text-emerald-700/90">
-              The practitioner connects with universal energy and enters a calm, meditative state.
+              Supports relief from persistent pain and fatigue.
             </p>
           </div>
 
-          {/* Step 3 */}
+          {/* Sleep */}
           <div className="bg-white rounded-xl p-6 border border-emerald-100 shadow-sm hover:shadow-md transition-all">
-            <div className="w-12 h-12 rounded-lg bg-emerald-500 text-white text-lg font-bold flex items-center justify-center mb-4">
-              3
-            </div>
             <div className="flex items-center gap-3 mb-3">
               <Eye className="w-6 h-6 text-emerald-600" strokeWidth={1.5} />
-              <h3 className="text-xl font-bold font-serif text-emerald-800">Energy Scanning</h3>
+              <h3 className="text-xl font-bold font-serif text-emerald-800">Sleep Disturbances</h3>
             </div>
             <p className="text-emerald-700/90">
-              Using hands or intuitive senses, the practitioner scans your aura and chakras.
+              Promotes restful sleep and balances circadian rhythms.
             </p>
           </div>
 
-          {/* Step 4 */}
+          {/* Energy */}
           <div className="bg-white rounded-xl p-6 border border-emerald-100 shadow-sm hover:shadow-md transition-all">
-            <div className="w-12 h-12 rounded-lg bg-emerald-500 text-white text-lg font-bold flex items-center justify-center mb-4">
-              4
-            </div>
             <div className="flex items-center gap-3 mb-3">
               <Sparkles className="w-6 h-6 text-emerald-600" strokeWidth={1.5} />
-              <h3 className="text-xl font-bold font-serif text-emerald-800">Energy Channeling</h3>
+              <h3 className="text-xl font-bold font-serif text-emerald-800">Energetic Balance</h3>
             </div>
             <p className="text-emerald-700/90">
-              Universal life force energy is directed through the practitioner's hands.
+              Clears and aligns your chakras and energy field.
             </p>
           </div>
 
-          {/* Step 5 */}
-          <div className="bg-white rounded-xl p-6 border border-emerald-100 shadow-sm hover:shadow-md transition-all">
-            <div className="w-12 h-12 rounded-lg bg-emerald-500 text-white text-lg font-bold flex items-center justify-center mb-4">
-              5
-            </div>
-            <div className="flex items-center gap-3 mb-3">
-              <Shield className="w-6 h-6 text-emerald-600" strokeWidth={1.5} />
-              <h3 className="text-xl font-bold font-serif text-emerald-800">Integration</h3>
-            </div>
-            <p className="text-emerald-700/90">
-              Energy is sealed with light and gratitude. You'll feel grounded and at peace.
-            </p>
-          </div>
-
-          {/* Final note */}
+          {/* Session details */}
           <div className="bg-white rounded-xl p-6 border border-emerald-100 shadow-sm hover:shadow-md transition-all md:col-span-2 lg:col-span-1">
-             <div className="w-12 h-12 rounded-lg bg-emerald-500 text-white text-lg font-bold flex items-center justify-center mb-4">
-              6
-            </div>
             <div className="flex items-center gap-3 mb-3">
               <Sun className="w-6 h-6 text-emerald-600" strokeWidth={1.5} />
-              <h3 className="text-xl font-bold font-serif text-emerald-800">Sacred Return</h3>
+              <h3 className="text-xl font-bold font-serif text-emerald-800">Session Details</h3>
             </div>
-            <p className="text-emerald-700/90">
-              Every Reiki session is a sacred return to wholeness, meeting you exactly where you are.
+            <p className="text-emerald-700/90 mb-3">
+              Each session includes a short consultation and grounding.
+            </p>
+            <p className="text-emerald-700/90 font-medium">
+              Available in-person or as distant healing.
             </p>
           </div>
         </div>

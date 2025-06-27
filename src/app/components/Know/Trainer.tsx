@@ -30,15 +30,22 @@ export function Trainer() {
             </h2>
 
             <p className="text-green-700/90 md:text-lg leading-relaxed max-w-[90%]">
-              Charchit Devkota brings over 15 years of experience as a certified Reiki Master and Ayurvedic Practitioner. Her intuitive approach gently unlocks the body's healing potential, offering each individual a space of peace, growth, and transformation.
+              I am a certified Reiki practitioner and meditation facilitator,
+              dedicated to helping people reconnect with their natural state of
+              well-being.
             </p>
 
-            <ul className="space-y-2 text-green-700/90 text-sm pt-2 pl-5 list-disc">
-              <li>Certified Reiki Master (Usui Lineage)</li>
-              <li>Ayurvedic Lifestyle Counselor</li>
-              <li>Trained in Mindfulness-Based Stress Reduction (MBSR)</li>
-              <li>Offering one-on-one healing sessions & wellness retreats</li>
-            </ul>
+            <p className="text-green-700/90 md:text-lg leading-relaxed max-w-[90%]">
+              Over the years, I’ve guided individuals on their healing journey
+              using traditional Usui Reiki and various forms of guided
+              meditation. My practice is rooted in presence, and a deep respect
+              for the individual path .
+            </p>
+
+            <p className="text-green-700/90 md:text-lg leading-relaxed max-w-[90%]">
+              This is a space, where healing happens gently, naturally, and in
+              alignment with good.
+            </p>
           </div>
 
           {/* Trainer Image */}
