@@ -58,10 +58,6 @@ export function Hero() {
               <span>Certified Reiki Master</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-              <span>10+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-1.5">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <span>Holistic Approach</span>
             </div>
